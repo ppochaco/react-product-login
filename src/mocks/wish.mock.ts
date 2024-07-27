@@ -45,7 +45,6 @@ export const wishMockHandler = [
         }
       );
     }
-
     return HttpResponse.json(WISH_LIST_MOCK_DATA);
   }),
   http.delete(getWishDeleteApi, async ({ request }) => {
